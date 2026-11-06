@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b1020"/>
+  <!-- Outer faceted shard silhouette, off-center composition -->
+  <polygon points="138,22 214,84 196,196 108,230 42,158 62,58" fill="#0b1020" stroke="#2f6bff" stroke-width="1.5" stroke-linejoin="miter"/>
+  <!-- Inner faceted planes -->
+  <polygon points="138,22 152,94 214,84" fill="#2f6bff" opacity="0.18"/>
+  <polygon points="214,84 152,94 196,196" fill="#2f6bff" opacity="0.10"/>
+  <polygon points="196,196 152,94 108,230" fill="#7cf5d4" opacity="0.14"/>
+  <polygon points="108,230 152,94 62,58" fill="#2f6bff" opacity="0.08"/>
+  <polygon points="62,58 152,94 138,22" fill="#7cf5d4" opacity="0.10"/>
+  <!-- Diagonal seam: thin split across shard -->
+  <line x1="58" y1="168" x2="212" y2="72" stroke="#e8ecf5" stroke-width="1.2" stroke-linecap="square" opacity="0.85"/>
+  <!-- Seam glow accents -->
+  <polyline points="58,168 96,144 140,120 176,100 212,72" fill="none" stroke="#7cf5d4" stroke-width="0.7" opacity="0.55"/>
+  <!-- Inner glowing plane facets above seam -->
+  <polygon points="96,144 140,120 152,94 108,230 62,58" fill="none" stroke="#7cf5d4" stroke-width="0.8" opacity="0.65"/>
+  <polygon points="140,120 176,100 214,84 152,94" fill="none" stroke="#2f6bff" stroke-width="0.8" opacity="0.7"/>
+  <!-- Hairline engraving detail -->
+  <line x1="152" y1="94" x2="196" y2="196" stroke="#e8ecf5" stroke-width="0.5" opacity="0.4"/>
+  <line x1="152" y1="94" x2="108" y2="230" stroke="#e8ecf5" stroke-width="0.5" opacity="0.35"/>
+  <line x1="152" y1="94" x2="62" y2="58" stroke="#e8ecf5" stroke-width="0.5" opacity="0.35"/>
+  <line x1="152" y1="94" x2="138" y2="22" stroke="#e8ecf5" stroke-width="0.5" opacity="0.35"/>
+  <!-- Core facet highlight -->
+  <polygon points="140,120 152,94 108,230" fill="#7cf5d4" opacity="0.08"/>
+  <!-- Small engraved notch on lower facet -->
+  <polyline points="128,178 144,166 158,174" fill="none" stroke="#e8ecf5" stroke-width="0.9" opacity="0.7"/>
+  <circle cx="152" cy="94" r="1.6" fill="#e8ecf5" opacity="0.9"/>
+</svg>
